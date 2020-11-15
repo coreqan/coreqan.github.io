@@ -1343,6 +1343,7 @@ header .logo a {
 	display: inline-table;
 	position: relative;
 	text-align: center;
+    overflow: hidden;
 }
 .intro-overlay {
 	position: absolute;
