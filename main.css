@@ -1341,7 +1341,7 @@ header .logo a {
     width:100vw;
 	/*min-height: 720px;*/
 	display: inline-table;
-	position: fixed;
+	position: relative;
 	text-align: center;
     overflow: hidden;
 }
