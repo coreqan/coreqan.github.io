@@ -1340,7 +1340,7 @@ header .logo a {
     background-position: center center;
 	width: 100vw;
 	height: 100vh;
-	min-height: 720px;
+	/*min-height: 720px;*/
 	display: inline-table;
 	position: relative;
 	text-align: center;
@@ -1472,6 +1472,7 @@ header .logo a {
  */
 @media only screen and (max-width:1024px) {
     .intro {
+        min-height: 1024px;
         background-image: url(intro-bg-1024.jpg);
             background-size: cover !important;
         -webkit-background-size: cover !important;
