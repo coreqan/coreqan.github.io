@@ -75,11 +75,9 @@ html {
 	}
 }
 
-html {
+html, body {
 	height: 100%;
     width: 100%;
-    -webkit-background-size: cover !important;
-    background-size: cover !important;
 }
 
 body {
@@ -90,8 +88,6 @@ body {
 	color: #6e6e6e;
     margin: 0;
     padding: 0;
-    height: 100%;
-    width: 1440px;
 }
 
 .top {
@@ -1154,7 +1150,7 @@ header .logo a {
 	width: 92px;
 	height: 15px;
 	background: url("logo.png") no-repeat center;
-	background-size: 92px 15px;
+	/*background-size: 92px 15px;*/
 }
 
 /**
@@ -1341,9 +1337,10 @@ header .logo a {
 	-o-background-size: cover !important;
 	background-size: cover !important;
 	background-attachment: fixed;
+    background-position: center center;
 	width: 100vw;
 	height: 100vh;
-	
+	min-height: 720px;
 	display: inline-table;
 	position: relative;
 	text-align: center;
