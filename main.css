@@ -75,9 +75,11 @@ html {
 	}
 }
 
-html, body {
+html {
 	height: 100%;
     width: 100%;
+    -webkit-background-size: cover !important;
+    background-size: cover !important;
 }
 
 body {
@@ -88,6 +90,8 @@ body {
 	color: #6e6e6e;
     margin: 0;
     padding: 0;
+    height: 100%;
+    width: 1440px;
 }
 
 .top {
@@ -1339,7 +1343,7 @@ header .logo a {
 	background-attachment: fixed;
 	width: 100vw;
 	height: 100vh;
-	min-height: 720px;
+	
 	display: inline-table;
 	position: relative;
 	text-align: center;
