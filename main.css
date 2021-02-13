@@ -85,7 +85,7 @@ body {
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
-	color: #6e6e6e;
+	color: #222222;
     margin: 0;
     padding: 0;
 }
@@ -120,7 +120,7 @@ a:hover, a:focus, a:active {
  */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: "poppins-semibold", sans-serif;
-	color: #313131;
+	color: #000000;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -174,7 +174,7 @@ p.lead {
 	font-family: "lora-regular", serif;
 	font-size: 2rem;
 	line-height: 1.8;
-	color: #888888;
+	color: #222222;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -230,7 +230,7 @@ blockquote cite:before {
 	content: "\2014 \0020";
 }
 blockquote cite a, blockquote cite a:visited {
-	color: #888888;
+	color: #222222;
 	border: none;
 }
 abbr {
@@ -238,7 +238,7 @@ abbr {
 	font-variant: small-caps;
 	text-transform: lowercase;
 	letter-spacing: .05rem;
-	color: #888888;
+	color: #222222;
 }
 var, kbd, samp, code, pre {
 	font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
@@ -952,7 +952,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin: .6rem 0 0 0;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
-	color: #888888;
+	color: #222222;
 }
 
 /**
@@ -1603,7 +1603,7 @@ header .logo a {
 .about-content .info-list li span {
 	display: block;
 	font-family: "poppins-regular", sans-serif;
-	color: #888888;
+	color: #222222;
 	font-size: 1.5rem;
 	line-height: 1;
 }
@@ -1742,7 +1742,7 @@ header .logo a {
 #resume .timeline-header p {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.6rem;
-	color: #888888;
+	color: #222222;
 }
 #resume .timeline-content {
 	margin-left: 35%;
@@ -2096,7 +2096,7 @@ header .logo a {
 	text-align: center;
 }
 #cta p.lead {
-	color: #6e6e6e;
+	color: #222222;
 }
 .cta-content {
 	max-width: 640px;
@@ -2186,7 +2186,7 @@ header .logo a {
 	color: white;
 }
 #services .section-intro h5 {
-	color: #8b99b0;
+	color: #222222;
 }
 #services .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2478,6 +2478,7 @@ header .logo a {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.5rem;
 	text-align: center;
+    color: #6e6e6e;
 }
 .contact-info .collapse {
 	padding: 0;
